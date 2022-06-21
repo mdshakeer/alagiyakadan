@@ -1,0 +1,84 @@
+* {
+	font-family: 'Mukta Malar', sans-serif;
+}
+.nav-links {
+	position: absolute;
+	left: 10px;
+}
+form {
+	padding: 20px;
+	border: 1px solid #888;
+	margin: 20px;
+	background: #f5ffac;
+}
+form label {
+	font-weight: bold;
+	font-size: 22px !important;
+	color: #002b59;
+}
+h1 {
+	color: #002b59;
+	margin: 20px;
+}
+.text-underline {
+	text-decoration: underline;
+}
+.table {
+	font-size: 20px;
+	border: 1px solid #444;
+	background: #f5ffac;
+	color: #002b59;
+}
+
+
+
+body{
+
+    background: #d1d5db;
+}
+
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
