@@ -2,13 +2,19 @@
 	font-family: 'Mukta Malar', sans-serif;
 }
 .nav-links {
-	position: absolute;
-	left: 10px;
+	/*position: absolute;*/
+	right: 10px;
+	font-size: 24px;
+	text-align: center;
 }
-form {
+.nav-links a {
+	margin-top: 15px;
+	display: inline-block;
+}
+form.loan-app {
 	padding: 20px;
 	border: 1px solid #888;
-	margin: 20px;
+	margin: 20px 0;
 	background: #f5ffac;
 }
 form label {
@@ -34,7 +40,11 @@ h1 {
 
 body{
 
-    background: #d1d5db;
+    background: #daf6dd;
+}
+
+.pad-0 {
+	padding: 0;
 }
 
 .form{
@@ -52,13 +62,19 @@ body{
 }
 
 .form span{
-
-        position: absolute;
+	position: absolute;
     right: 17px;
     top: 13px;
     padding: 2px;
     border-left: 1px solid #d1d5db;
 
+}
+.form-filter {
+	margin-bottom: 10px;
+}
+.form-filter select{
+	font-size: 24px;
+	width: 200px !important;
 }
 
 .left-pan{
@@ -81,4 +97,7 @@ body{
 
     box-shadow: none;
     border:none;
+}
+.back-link {
+	font-size: 28px;
 }
