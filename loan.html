@@ -14,21 +14,44 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="nav-links">
-    <a href="index.html">1. கடன் பெற்றவர் விவரம் சேர்க்கை படிவம்</a></br>
-    <a href="list.html">2. அழகிய கடன்களின் விவரம்</a></br>
-    <a href="loan.html">3. கடன் விவரம்</a>
-  </div>
-  <div class="container">
-    <div style="margin-top: 20px;">
+  <div class="container" style="position: relative;">
+    <div style="margin-top: 50px;">
       <h2 class="text-center">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2>
-      <h3 style="margin-top: 50px;text-align: right;color: #002b59;"> கடன் விவரம்: ஆதில் - ஆதார் நம்பர்(281515914393) </h3>
     </div>
-    <table class="table table-hover">
+    <div class="col-7 pad-0 pull-left" style="font-size: 28px;margin-top: 30px;">
+      <div class="col-12 pad-0">
+        <a href="javascript:history.back()"><i class="fa fa-angle-left"></i> Back</a>
+        <h3 style="color: #028300;">ஆதில் - ஆதார் நம்பர்(281515914393)</h3>
+        <h3 class="col-12 pad-0" style="text-align: left;color: #002b59;text-decoration: underline;"> கடன் விவரம்: </h3>
+        <div class="col-12 pad-0">
+          <label for="loan_date" class="col-7 col-form-label pad-0">விண்ணப்ப எண்</label><span>3724</span>
+        </div>
+        <div class="col-12 pad-0">
+          <label for="loan_date" class="col-7 col-form-label pad-0">கடன் பெற்ற தொகை</label><span>ரூ 10,000</span>
+        </div>
+        <div class="col-12 pad-0">
+          <label for="loan_date" class="col-7 col-form-label pad-0">கடன் பெற்ற தேதி</label><span>12/05/2022</span>
+        </div>
+        <div class="col-12 pad-0">
+          <label for="load_enddate" class="col-7 col-form-label pad-0">தவணை முடியும் தேதி</label><span>12/07/2022</span>
+        </div>
+      </div>
+    </div>
+    <form class="form-filter form-inline col-12 pad-0 pull-right" style="margin-top: 50px;position: absolute;top: 120px;right: 0;width: 42%;min-width: 200px;">
+      <div class="form-group col-12 pad-0">
+        <label for="form-no" class="col-form-label" style="margin-right: 20px;">விண்ணப்ப எண்:</label>
+        <select class="form-control" name="form-no" aria-label="Default select example">
+          <option value="1" selected>3724</option>
+          <option value="2">2673</option>
+          <option value="3">1837</option>
+        </select>
+      </div>
+    </form>
+    <table class="table table-hover" style="margin-top: 20px;">
       <thead>
         <tr>
-          <th>வாரம் எண்</th>
-          <th>தேதி</th>
+          <th>தவணை எண்</th>
+          <th>செலுத்திய தேதி</th>
           <th>செலுத்திய தொகை</th>
           <th>மீத தொகை</th>
         </tr>
@@ -61,8 +84,8 @@
       </tbody>
     </table>
     <div>
-      <h2 style="color: #002b59;">மொத்த செலுத்திய தொகை: 2,800</h2>
-      <h2 style="color: #002b59;">மீத தொகை: 7,200</h2>
+      <h2 style="color: #028300;">மொத்த செலுத்திய தொகை: ரூ 2,800 </h2>
+      <h2 style="color: #ec0b20;">மீத தொகை: ரூ 7,200 </h2>
     </div>
   </div>
 </body>
